@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+</head>
+
+<body>
+    <form id="myForm" action="/greet" method="get">
+    <div>
+        <label for="choice">Send Via POST (secure)</label>
+        <input id="post-request" type="checkbox" name="choice">
+    </div>
+    <div>
+        <input id="user-name" autofocus autocomplete="off" placeholder="sickboy" type="name" name="user-name">
+    </div>
+    <button id="send-data" type="submit">Send Data</button>
+    </form>
+    <script src="static/script.js"></script>
+    </body>
+    
+    </html>
